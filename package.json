@@ -1,0 +1,24 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Mark Rivera",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.0.0",
+    "knex": "^0.21.2",
+    "node-pre-gyp": "^0.15.0",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
